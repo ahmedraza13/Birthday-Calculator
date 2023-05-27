@@ -1,0 +1,78 @@
+
+
+body {
+  background-image: url(./Images/ballon-large.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #112A46;
+}
+
+h1{
+    margin-top: 5em;
+    font-size: 1.5em;
+}
+
+label{
+    font-size: 20px;
+}
+
+input {
+    margin-bottom: 30px;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+  }
+
+
+  
+  input:focus {
+    border-color: #4CAF50;
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.6);
+  }
+  
+
+button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #112A46;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  button:active {
+    background-color: #3e8e41;
+  }
+
+  table{
+    margin: auto;
+    text-align: center;
+  }
+
+  table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+   
+  }
+  
+
+
+
+
+
+

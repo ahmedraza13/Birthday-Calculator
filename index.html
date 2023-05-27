@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./style.css">
+  
+</head>
+<body>
+   
+    <h1 >Birthday Countdown Calculator</h1>
+    <p><b>Calculate how many months days and hours are left until your birthday <br> using the calculator below.</b></p>
+
+    <label for="date">Enter Your Birth Date:</label>
+    <input type="date" id="date" name="userbirthDate" >
+
+    <button onclick="birthDate()">Check</button>
+
+      <table >
+        <tr>
+          <td>Age</td>
+          <td id="age"></td>
+        </tr>
+        <tr>
+          <td>Remaining Months</td>
+          <td id="months"></td>
+        </tr>
+        <tr>
+          <td>Remaining Days</td>
+          <td id="days"></td>
+        </tr>
+        <tr>
+          <td>Remaining Hours</td>
+          <td id="hours"></td>
+       </tr>
+       <td>Remaing Minutes</td>
+       <td id="minutes"></td>
+      </table>
+   
+ 
+
+</body>
+<script src="./app.js"></script>
+</html>
