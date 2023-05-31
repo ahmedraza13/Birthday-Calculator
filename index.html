@@ -1,38 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="./style.css">
-  
-</head>
-<body>
-   
-    <h1 >Birthday Countdown Calculator</h1>
-    <p id="info"><b>Calculate how many months days and hours are left until your birthday <br> using the calculator below.</b></p>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <h1>Birthday Countdown Calculator</h1>
+    <p id="para">
+      Calculate how many months days and hours are left until your birthday
+      using the calculator below.
+    </p>
 
     <label for="date">Enter Your Birth Date:</label>
-    <input type="date" id="date" name="userbirthDate" >
+    <input type="date" id="date" name="userbirthDate" />
 
     <button onclick="birthDate()">Check</button>
 
-      <h2>Time Remaining in Your Birthday</h2>
+    <h2>Time Remaining in Your Birthday</h2>
 
-      <div class="result">
-        <p id="age"></p>
-        <p id="months"></p>
-        <p id="days"></p>
-        <p id="hours"></p>
-        <p id="minutes"></p>
-        <p id="seconds"></p>
-      </div>
-
-    
-   
- 
-
-</body>
-<script src="./app.js"></script>
+    <div id="addstyling">
+      <p id="age"></p>
+      <p id="months"></p>
+      <p id="days"></p>
+      <p id="hours"></p>
+      <p id="minutes"></p>
+      <p id="seconds"></p>
+    </div>
+  </body>
+  <script src="./app.js"></script>
 </html>

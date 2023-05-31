@@ -12,7 +12,8 @@ function birthDate() {
   let currentHours = currentDate.getHours();
   let currentMinutes = currentDate.getMinutes();
   let currentSeconds = currentDate.getSeconds();
-
+  let addstyling = document.querySelector("#addstyling");
+  addstyling.className = "result";
   //  Year Calculation
   let Age = currentYear - userYear;
   document.querySelector("#age").innerText = `Your Age is ${Age}`;
