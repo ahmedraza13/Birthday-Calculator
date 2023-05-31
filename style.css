@@ -66,6 +66,57 @@ button {
   background-color: #112A46;;
   color: white;
  }
+
+
+ @media only screen and (max-width: 600px) {
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(./Images/ballon\ small.jpg);
+    color: black;
+    text-align: center;
+  }
+
+  h1{
+    margin-top: 3.4em;
+    font-size: 1.1em;
+  }
+
+  #info{
+    display: none;
+  }
+
+  input{
+    padding: 5px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+
+  button{
+    padding: 5px 12px;
+    background-color: white;
+    color: black;
+    
+  }
+
+  label{
+    font-size: 1em;
+   
+  }
+
+  h2{
+    font-size: 1.1em;
+  }
+
+  .result{
+    background-color: white;
+    color: black;
+   
+  }
+
+}
   
 
 
